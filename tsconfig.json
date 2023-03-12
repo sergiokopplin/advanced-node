@@ -10,10 +10,11 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "baseUrl": "src",
+    "strict": true,
     "paths": {
       "@/*": ["*"],
       "@/tests/*": ["../tests/*"]
-    }
+    },
   },
   "include": ["src"]
 }
